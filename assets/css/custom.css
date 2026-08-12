@@ -32,56 +32,7 @@ h1, h2, h3, h4, h5, h6,
 .post-title {
   font-family: var(--font-body) !important;
   font-variation-settings: 'opsz' 32;
-  font-weight: 700;
-  letter-spacing: -0.025em;
-}
-
-/* Header & Nav Bar */
-.site-header-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.site-header-nav #a-title {
-  display: inline-block;
-  text-decoration: none;
-}
-
-.site-header-nav #a-title h1 {
-  margin: 0;
-  font-size: 26px;
-  line-height: 1.2;
-  color: #ffffff;
-}
-
-.site-nav {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.site-nav .nav-link {
-  color: #c9d1d9;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 500;
-  transition: color 0.15s ease-in-out;
-}
-
-.site-nav .nav-link:hover {
-  color: #58a6ff;
-}
-
-.site-nav .btn-github {
-  margin: 0;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  padding: 6px 14px;
+  letter-spacing: -0.02em;
 }
 
 /* Code font: JetBrains Mono */
