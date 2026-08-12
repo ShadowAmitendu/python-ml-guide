@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
@@ -37,4 +37,4 @@ Found a typo? Have a suggestion? Feel free to open an issue or PR on the [GitHub
 
 ---
 
-*Built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).*
+[Back to Home]({{ '/' | relative_url }})
