@@ -11,6 +11,23 @@
   --font-serif: 'CMU Serif', 'Computer Modern', 'Latin Modern Roman', serif;
 }
 
+/* Hide View on GitHub & downloads button */
+#downloads,
+.btn-github {
+  display: none !important;
+}
+
+header #a-title,
+#a-title {
+  float: none !important;
+  width: 100% !important;
+}
+
+header h2 {
+  float: none !important;
+  width: 100% !important;
+}
+
 body,
 p,
 li,
