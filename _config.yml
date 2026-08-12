@@ -30,7 +30,7 @@ permalink: /:year/:month/:day/:title/
 # Social links (uncomment and fill in)
 # minima:
 #   social_links:
-#     - { platform: github, user_url: "https://github.com/YOUR_USERNAME" }
+#     - { platform: github, user_url: "https://github.com/ShadowAmitendu" }
 #     - { platform: linkedin, user_url: "https://linkedin.com/in/YOUR_PROFILE" }
 
 # Exclude from build

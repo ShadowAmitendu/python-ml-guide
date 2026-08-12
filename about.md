@@ -33,7 +33,7 @@ All code in this blog uses:
 
 ### Contributing
 
-Found a typo? Have a suggestion? Feel free to open an issue or PR on the [GitHub repo](https://github.com/YOUR_USERNAME/python-ml-guide).
+Found a typo? Have a suggestion? Feel free to open an issue or PR on the [GitHub repo](https://github.com/ShadowAmitendu/python-ml-guide).
 
 ---
 

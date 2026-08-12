@@ -2,7 +2,7 @@
 
 > A beginner-friendly, step-by-step guide to Machine Learning with Python.
 
-[![GitHub Pages](https://img.shields.io/badge/Live_Site-GitHub_Pages-blue?logo=github)](https://YOUR_USERNAME.github.io/python-ml-guide/)
+[![GitHub Pages](https://img.shields.io/badge/Live_Site-GitHub_Pages-blue?logo=github)](https://ShadowAmitendu.github.io/python-ml-guide/)
 
 ## 📖 About
 
@@ -33,11 +33,11 @@ This is a free, open-source blog built with Jekyll and hosted on GitHub Pages. I
    git add .
    git commit -m "Initial commit: Jekyll site with first post"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/python-ml-guide.git
+   git remote add origin https://github.com/ShadowAmitendu/python-ml-guide.git
    git push -u origin main
    ```
 3. Go to **Settings → Pages → Source: Deploy from branch → main → / (root)**
-4. Wait ~2 minutes, your site is live at `https://YOUR_USERNAME.github.io/python-ml-guide/`
+4. Wait ~2 minutes, your site is live at `https://ShadowAmitendu.github.io/python-ml-guide/`
 
 ### Option 2: Run Locally
 

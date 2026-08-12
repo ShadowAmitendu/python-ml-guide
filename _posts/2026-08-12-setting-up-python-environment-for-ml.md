@@ -407,4 +407,4 @@ Topics include:
 
 ---
 
-*Have questions? Found an issue? [Open an issue on GitHub](https://github.com/YOUR_USERNAME/python-ml-guide/issues).*
+*Have questions? Found an issue? [Open an issue on GitHub](https://github.com/ShadowAmitendu/python-ml-guide/issues).*
