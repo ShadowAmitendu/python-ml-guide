@@ -3,23 +3,14 @@ layout: default
 ---
 
 <article class="post">
-  <header class="post-header" style="margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px solid #30363d;">
-    <p class="post-meta" style="color: #8b949e; font-size: 0.9em; margin-bottom: 0.5em;">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: "%B %-d, %Y" }}
-      </time>
-      {% if page.categories and page.categories.size > 0 %}
-        &bull; Categories: {{ page.categories | join: ", " }}
-      {% endif %}
-    </p>
-    <h1 class="post-title" style="margin-top: 0; font-size: 2em;">{{ page.title | escape }}</h1>
-  </header>
+  <small style="color: #888;">{{ page.date | date: "%B %-d, %Y" }}</small>
+  <h1 style="margin-top: 0.2em;">{{ page.title | escape }}</h1>
 
   <div class="post-content">
     {{ content }}
   </div>
 
-  <footer class="post-footer" style="margin-top: 3em; padding-top: 1.5em; border-top: 1px solid #30363d;">
-    <p><a href="{{ '/' | relative_url }}" style="color: #58a6ff; text-decoration: none; font-weight: 500;">&larr; Back to Home</a></p>
-  </footer>
+  <p style="margin-top: 2.5em; border-top: 1px solid #333; padding-top: 1em;">
+    <a href="{{ '/' | relative_url }}">&larr; Back to Home</a>
+  </p>
 </article>

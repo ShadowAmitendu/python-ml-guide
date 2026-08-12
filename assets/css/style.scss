@@ -1,4 +1,7 @@
-/* Custom Typography & Modern Enhancements for Midnight Theme */
+---
+---
+
+@import "jekyll-theme-midnight";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.cdnfonts.com/css/cmu-serif');
 
@@ -8,12 +11,8 @@
   --font-serif: 'CMU Serif', 'Computer Modern', 'Latin Modern Roman', serif;
 }
 
-/* Body font: Inter Display */
-html,
 body,
 p,
-ul,
-ol,
 li,
 table,
 th,
@@ -24,18 +23,16 @@ footer,
 .post-meta,
 .post-link,
 a {
-  font-family: var(--font-body) !important;
+  font-family: var(--font-body);
 }
 
-/* Headings use Inter with display optical sizing */
 h1, h2, h3, h4, h5, h6,
 .post-title {
-  font-family: var(--font-body) !important;
+  font-family: var(--font-body);
   font-variation-settings: 'opsz' 32;
   letter-spacing: -0.02em;
 }
 
-/* Code font: JetBrains Mono */
 code,
 pre,
 kbd,
@@ -52,44 +49,15 @@ code.highlighter-rouge {
   font-feature-settings: "liga" 1, "calt" 1;
 }
 
-code {
-  font-size: 0.9em;
-  padding: 2px 6px;
-  border-radius: 4px;
-}
-
-pre {
-  line-height: 1.55;
-  border-radius: 8px;
-}
-
-pre > code {
-  font-size: 0.88em;
-  padding: 0;
-}
-
-/* Times / Serif replaced with CMU (Computer Modern Unicode) */
 blockquote,
 cite,
 .serif,
 .cmu,
-.times,
-math,
-.katex,
-.MathJax {
+.times {
   font-family: var(--font-serif);
 }
 
-blockquote {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 1.05em;
-  border-left: 3px solid #58a6ff;
-  padding-left: 1em;
-  color: #8b949e;
-}
-
-/* Code Block Wrapper & Copy Button */
+/* Copy Button Styling */
 .code-block-wrapper {
   position: relative !important;
   margin-top: 1em;
@@ -145,20 +113,4 @@ blockquote {
   color: #3fb950;
   background-color: #0d2818;
   border-color: #238636;
-}
-
-/* Clean styling for tables in Midnight */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5em 0;
-}
-
-table th, table td {
-  padding: 10px 14px;
-  border: 1px solid #30363d;
-}
-
-table th {
-  background-color: #161b22;
 }
