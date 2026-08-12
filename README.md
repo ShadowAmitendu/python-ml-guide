@@ -1,27 +1,27 @@
-# 🐍 python-ml-guide
+# python-ml-guide
 
 > A beginner-friendly, step-by-step guide to Machine Learning with Python.
 
 [![GitHub Pages](https://img.shields.io/badge/Live_Site-GitHub_Pages-blue?logo=github)](https://ShadowAmitendu.github.io/python-ml-guide/)
 
-## 📖 About
+## About
 
 This is a free, open-source blog built with Jekyll and hosted on GitHub Pages. It teaches Machine Learning from scratch using Python — no prior ML experience needed.
 
-## 🗺️ Roadmap
+## Roadmap
 
 | # | Topic | Status |
 |---|-------|--------|
-| 1 | Setting Up Your Environment | ✅ Published |
-| 2 | Python Essentials for ML | 🔜 Coming Soon |
-| 3 | NumPy & Pandas Crash Course | 🔜 Coming Soon |
-| 4 | Data Visualization | 🔜 Coming Soon |
-| 5 | Your First ML Model | 🔜 Coming Soon |
-| 6 | Classification with Scikit-Learn | 🔜 Coming Soon |
-| 7 | Model Evaluation & Metrics | 🔜 Coming Soon |
-| 8 | Intro to Neural Networks | 🔜 Coming Soon |
+| 1 | Setting Up Your Environment | Published |
+| 2 | Python Essentials for ML | Coming Soon |
+| 3 | NumPy & Pandas Crash Course | Coming Soon |
+| 4 | Data Visualization | Coming Soon |
+| 5 | Your First ML Model | Coming Soon |
+| 6 | Classification with Scikit-Learn | Coming Soon |
+| 7 | Model Evaluation & Metrics | Coming Soon |
+| 8 | Intro to Neural Networks | Coming Soon |
 
-## 🚀 How to Deploy
+## How to Deploy
 
 ### Option 1: GitHub Pages (Recommended)
 
@@ -36,7 +36,7 @@ This is a free, open-source blog built with Jekyll and hosted on GitHub Pages. I
    git remote add origin https://github.com/ShadowAmitendu/python-ml-guide.git
    git push -u origin main
    ```
-3. Go to **Settings → Pages → Source: Deploy from branch → main → / (root)**
+3. Go to **Settings -> Pages -> Source: Deploy from branch -> main -> / (root)**
 4. Wait ~2 minutes, your site is live at `https://ShadowAmitendu.github.io/python-ml-guide/`
 
 ### Option 2: Run Locally
@@ -48,13 +48,13 @@ bundle exec jekyll serve
 # Open http://localhost:4000/python-ml-guide/
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Fix typos or improve explanations
 - Suggest new topics
 - Add code examples
 
-## 📄 License
+## License
 
 This project is open source under the [MIT License](LICENSE).

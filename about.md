@@ -10,9 +10,9 @@ permalink: /about/
 
 ### Who Is This For?
 
-- 🎓 **Students** starting out with ML
-- 💻 **Developers** who want to add ML to their skillset
-- 🔍 **Curious minds** who want to understand how ML works
+- **Students** starting out with ML
+- **Developers** who want to add ML to their skillset
+- **Curious minds** who want to understand how ML works
 
 ### What Makes This Different?
 
