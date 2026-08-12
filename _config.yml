@@ -1,0 +1,41 @@
+# Site settings
+title: Python ML Guide
+description: "A beginner-friendly, step-by-step guide to Machine Learning with Python"
+url: "" # will be set by GitHub Pages automatically
+baseurl: "/python-ml-guide" # repo name — change if your repo name differs
+
+# Theme
+theme: minima
+
+# Author
+author:
+  name: Amitendu
+  # email: your-email@example.com  # uncomment and set if you want
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalink style — clean URLs
+permalink: /:year/:month/:day/:title/
+
+# Pagination (optional, needs jekyll-paginate plugin)
+# paginate: 5
+
+# Social links (uncomment and fill in)
+# minima:
+#   social_links:
+#     - { platform: github, user_url: "https://github.com/YOUR_USERNAME" }
+#     - { platform: linkedin, user_url: "https://linkedin.com/in/YOUR_PROFILE" }
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
